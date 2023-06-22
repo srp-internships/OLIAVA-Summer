@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fynMWQnuWcihwD1y4FCdpy8+oosePuVx7MEZaqLI8W/V87s0GLIewxDEqbHbp+JtjtEOremmKrGhc3yPvMWHEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

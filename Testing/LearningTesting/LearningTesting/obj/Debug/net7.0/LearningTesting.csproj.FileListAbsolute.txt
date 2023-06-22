@@ -1,0 +1,15 @@
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\bin\Debug\net7.0\LearningTesting.exe
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\bin\Debug\net7.0\LearningTesting.deps.json
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\bin\Debug\net7.0\LearningTesting.runtimeconfig.json
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\bin\Debug\net7.0\LearningTesting.dll
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\bin\Debug\net7.0\LearningTesting.pdb
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.csproj.AssemblyReference.cache
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.AssemblyInfoInputs.cache
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.AssemblyInfo.cs
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.csproj.CoreCompileInputs.cache
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.dll
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\refint\LearningTesting.dll
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.pdb
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\LearningTesting.genruntimeconfig.cache
+C:\Users\avazb\Desktop\Projects\LearningTesting\LearningTesting\obj\Debug\net7.0\ref\LearningTesting.dll
