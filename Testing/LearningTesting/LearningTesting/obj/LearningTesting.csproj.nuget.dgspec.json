@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\LearningTesting.csproj": {}
+    "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\LearningTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\LearningTesting.csproj": {
+    "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\LearningTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
+        "projectUniqueName": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
         "projectName": "LearningTesting",
-        "projectPath": "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
+        "projectPath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
         "packagesPath": "C:\\Users\\avazb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\LearningTesting\\obj\\",
+        "outputPath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

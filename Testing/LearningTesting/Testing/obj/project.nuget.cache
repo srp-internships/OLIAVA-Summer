@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZes/Xv62zUuBNi9wDQxmziiN27vE71tAlEYar1adZ2MmQq/bwZ7uK50cMimcXj34fcUUKabngT6617j6cd+QA==",
+  "dgSpecHash": "OJUDsxOsAxFe69uQd96TSfbeq4f25xpJvZB1XbwLNVjfLx8Ir2ITOs3lrm4NVn2qHemN+0CMvRS40nKh96eOdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\avazb\\Desktop\\Projects\\LearningTesting\\Testing\\Testing.csproj",
+  "projectFilePath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\Testing\\Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\avazb\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
@@ -17,8 +17,8 @@
     "C:\\Users\\avazb\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
   ],
   "logs": []
