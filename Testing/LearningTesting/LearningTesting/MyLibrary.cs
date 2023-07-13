@@ -155,6 +155,18 @@ namespace Library
                 for (int i = 0; i < texts.Length; i++)
                     stream.WriteLine(texts[i]);
         }
+
+        public static List<string?> WordExist(string fileName)
+        {
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + fileName + ".txt";
+
+            List<string?> words = new List<string?>();
+
+            using (StreamReader reader = new StreamReader(path))
+                words.Add(reader.ReadLine()!);
+
+            return words;
+        }
     }
 
     /// <summary>

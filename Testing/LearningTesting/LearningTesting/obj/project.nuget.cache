@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HS7zTGLP8WsCSdW00cbzOcVIbo/tHwQN5ICauq4CjmEkwSg4DCxU9TncE3cOLRU/j4K3lyL8niJmdJb/1v39yw==",
+  "dgSpecHash": "PjGzW5LbsMonOniVNRFvR0MYZiyGJsCmbKPJefk6NqJ8cGx8NireQsB6Hvv+UW3VJoAQ4GfPjqyAMOoMnIINIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\Testing\\LearningTesting\\LearningTesting\\LearningTesting.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
     "C:\\Users\\avazb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
   ],

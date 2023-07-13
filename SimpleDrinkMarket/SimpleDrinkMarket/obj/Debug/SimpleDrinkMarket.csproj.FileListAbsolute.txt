@@ -1,0 +1,16 @@
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\SimpleDrinkMarket.exe.config
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\SimpleDrinkMarket.exe
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\SimpleDrinkMarket.pdb
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\EntityFramework.dll
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\EntityFramework.xml
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.csproj.AssemblyReference.cache
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.csproj.SuggestedBindingRedirects.cache
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.csproj.CoreCompileInputs.cache
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.csproj.CopyComplete
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.exe
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.pdb
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.Migrations.Initialize.resources
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.csproj.GenerateResource.cache
+C:\Users\avazb\Desktop\Projects\SimpleDrinkMarket\SimpleDrinkMarket\obj\Debug\SimpleDrinkMarket.Migrations.SeedData.resources
