@@ -1,3 +1,5 @@
+
+
 namespace WebAPI.DTOs.Character
 {
     public class GetCharacterDTO
@@ -9,5 +11,10 @@ namespace WebAPI.DTOs.Character
         public int Defense { get; set; } = 10;
         public int Intellegence { get; set; } = 10;
         public RpgClass Class { get; set; } = RpgClass.Knight;
+        public GetWeaponDTO? Weapon { get; set; }
+        public List<GetSkillDTO>? Skills { get; set; }
+        public int Fights { get; set; }
+        public int Victories { get; set; }
+        public int Defeats { get; set; }
     }
 }

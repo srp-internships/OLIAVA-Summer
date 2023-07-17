@@ -1,3 +1,4 @@
+
 namespace WebAPI.Models
 {
     public class User
@@ -7,6 +8,9 @@ namespace WebAPI.Models
         public byte[] PasswordHash { get; set; } = new byte[0];
         public byte[] PasswordSalt {get; set;} = new byte[0];
         public List<Character>? Characters {get; set;}
+       
+        [Required]
+        public string Role { get; set; }
         
     }
 }

@@ -11,6 +11,13 @@ global using System.IdentityModel.Tokens.Jwt;
 global using Microsoft.IdentityModel.Tokens;
 global using WebAPI.DTOs.User;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using WebAPI.DTOs.Weapon;
+global using WebAPI.DTOs.Fight;
+global using System.ComponentModel.DataAnnotations;
+global using WebAPI.DTOs.SkillDTO;
+global using WebAPI.Services.WeaponService;
+global using WebAPI.Services.FightService;
+global using Microsoft.AspNetCore.Authorization;
 using Swashbuckle.AspNetCore.Filters;
 using Microsoft.OpenApi.Models;
 
@@ -36,6 +43,7 @@ builder.Services.AddSwaggerGen(c => {
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IFightService, FightService>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
@@ -51,6 +59,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 });
 
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IWeaponService,WeaponService>();
 
 var app = builder.Build();
 
