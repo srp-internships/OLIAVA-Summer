@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avazb\\Desktop\\Projects\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {}
+    "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avazb\\Desktop\\Projects\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {
+    "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avazb\\Desktop\\Projects\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
         "projectName": "BlazorEcommerce.Shared",
-        "projectPath": "C:\\Users\\avazb\\Desktop\\Projects\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
+        "projectPath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
         "packagesPath": "C:\\Users\\avazb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avazb\\Desktop\\Projects\\BlazorEcommerce\\BlazorEcommerce\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\avazb\\Documents\\GitHub\\OLIAVA-Summer\\BlazorEcommerce\\BlazorEcommerce\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
