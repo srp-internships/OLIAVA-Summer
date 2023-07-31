@@ -1,7 +1,9 @@
 ﻿@inject IProductService ProductService
+@implements IDisposable
+
 @if (ProductService.Products == null || ProductService.Products.Count == 0)
 {
-	<span>Loading Products...</span>
+	<span>@ProductService.Message</span>
 }
 else
 {
@@ -20,19 +22,42 @@ else
 					</a>
 					<p>@product.Description</p>
 					<h5 class="price">
-						$@product.Price
+						@GetPriceText(product)
 					</h5>
 
 				</div>
 			</li>
 		}
 	</ul>
+	for (int i = 1; i <= ProductService.PageCount; i++)
+	{
+		<a class ="btn @(i == ProductService.CurrentPage ? "btn-info" : "btn-outline-info")
+			page-selection"
+		    href="/search/@ProductService.LastSearchText/@i">@i</a>
+	}
 }
 
 @code {
 
-	protected override async Task OnInitializedAsync()
+	protected override void OnInitialized()
 	{
-		await ProductService.GetProducts();
+		ProductService.ProductChanged += StateHasChanged;
+	}
+
+	public void Dispose()
+	{
+		ProductService.ProductChanged -= StateHasChanged;
+	}
+
+	private string GetPriceText(Product product)
+	{
+		var variants = product.Variants;
+		if (variants.Count == 0)
+			return string.Empty;
+		if (variants.Count == 1)
+			return $"{variants[0].Price}";
+
+		decimal minPrice = variants.Min(v => v.Price);
+		return $"Starting at ${minPrice}";
 	}
 }
