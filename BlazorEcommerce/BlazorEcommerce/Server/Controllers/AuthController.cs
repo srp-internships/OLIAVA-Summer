@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using BlazorEcommerce.Server.Services.AuthService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +32,23 @@ namespace BlazorEcommerce.Server.Controllers
 
             return (!response.Success) ? BadRequest(response) : Ok(response);
         }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<ServiceResponse<string>>> Login(UserLogin request)
+        {
+            var response = await _authService.Login(request.Email, request.Password);
+            return (!response.Success) ? BadRequest(response) : Ok(response); 
+        }
+
+        [HttpPost("change-password"), Authorize]
+        public async Task<ActionResult<ServiceResponse<bool>>> ChangePassword([FromBody] string newPassword)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var response = await _authService.ChangePassword(int.Parse(userId!), newPassword);
+            
+            return (!response.Success) ? BadRequest(response) : Ok(response);
+        }
+        
         
     }
 }

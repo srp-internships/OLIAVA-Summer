@@ -8,7 +8,7 @@
 <EditForm Model="user" OnValidSubmit="HandleRegistration">
     <DataAnnotationsValidator/>
     <div class="mb-3">
-        <label for="emaail">Email</label>
+        <label for="email">Email</label>
         <InputText id="email" @bind-Value="user.Email" class="form-control"/>
         <ValidationMessage For="@(() => user.Email)"/>
     </div>
@@ -27,30 +27,22 @@
         <ValidationMessage For="@(() => user.ConfirmPassword)"/>
         </div>
     <button type="submit" class="btn btn-primary">Register</button>
-    @if (successfullyRegistered)
-    {
-        <div class="text-success">
-            <span>@RegistrationMessage</span>
+    <div class="@messageCssClass">
+        <span>@message</span>
         </div>
-    }
-    else
-    {
-        <div class="text-danger">
-            <span>@RegistrationMessage</span>
-        </div>
-    }
+    
 </EditForm>
 
 @code {
     UserRegister user = new UserRegister();
     
-    private string RegistrationMessage = string.Empty;
-    private bool successfullyRegistered = false;
+    private string message = string.Empty;
+    string messageCssClass = string.Empty;
 
     async Task HandleRegistration()
     {
         var result = await AuthService.Register(user);
-        RegistrationMessage = !result.Success ? result.Message : "Successfully registered";
-        successfullyRegistered = result.Success;
+        message = result.Message;
+        messageCssClass = (result.Success) ? "text-success" : "text-danger";
     }
 }
