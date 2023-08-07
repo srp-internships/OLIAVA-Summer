@@ -1,4 +1,5 @@
 ﻿@page "/cart"
+
 @inject ICartService CartService
 
 <PageTitle>Shopping Cart</PageTitle>
@@ -28,12 +29,12 @@ else
                         <button class="btn-delete" @onclick="@(() => 
                                                                 RemoveProductFromCart(product.ProductId, product.ProductTypeId))">Delete</button>
                     </div>
-                    <div class="cart-product-price">$(@product.Price * product.Quantity)</div>
+                    <div class="cart-product-price">$@(product.Price * product.Quantity)</div>
                     </div>
 
                 }
                 <div class="card-product-price">
-                    Total (@cartProducts.Count): $@cartProducts.Sum(product => @product.Price * product.Quantity)
+                    Total (@cartProducts.Count): $@cartProducts.Sum(product => @product.Price * @product.Quantity)
                 </div>
     </div>
 }
@@ -56,15 +57,11 @@ else
 
     private async Task LoadCart()
     {
-        if ((await CartService.GetCartItems()).Count == 0)
-        {
+        await CartService.GetCartItemsCount();
+        cartProducts = await CartService.GetCartProducts();
+        if ((cartProducts is null || cartProducts.Count == 0))
             message = "Your cart is empty.";
-            cartProducts = new List<CartProductResponse>();
-        }
-        else
-        {
-            cartProducts = await CartService.GetCartProducts();
-        }
+            
     }
 
     private async Task UpdateQuantity(ChangeEventArgs e, CartProductResponse product)
